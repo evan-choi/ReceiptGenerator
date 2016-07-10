@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptGenerator", "ReceiptGenerator\ReceiptGenerator.csproj", "{E5B4BD9B-7E6E-48A2-9BBF-598689C34D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptGenerator_App", "ReceiptGenerator_App\ReceiptGenerator_App.csproj", "{C882FC1D-4071-444F-A931-66F03AC70308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5B4BD9B-7E6E-48A2-9BBF-598689C34D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B4BD9B-7E6E-48A2-9BBF-598689C34D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B4BD9B-7E6E-48A2-9BBF-598689C34D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B4BD9B-7E6E-48A2-9BBF-598689C34D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C882FC1D-4071-444F-A931-66F03AC70308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C882FC1D-4071-444F-A931-66F03AC70308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C882FC1D-4071-444F-A931-66F03AC70308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C882FC1D-4071-444F-A931-66F03AC70308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
