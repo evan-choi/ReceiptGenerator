@@ -21,3 +21,38 @@ html, body, label, h1, h2, h3, h4, h5, h6
 {
     margin: 15px;
 }
+
+img
+{
+
+  display:table-cell;
+  vertical-align:middle;
+  margin:auto;
+}
+
+/*
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img {
+  position: absolute;
+  left: 39px;
+  top: 26px;
+    height: 169px;
+    width: 384px;
+}
+
+.signature-pad {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:400px;
+  height:200px;
+}
+*/

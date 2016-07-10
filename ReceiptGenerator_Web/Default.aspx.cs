@@ -49,12 +49,12 @@ namespace ReceiptGenerator_Web
                 SetCookie("rreg", null);
             }
 
-            byte[] bin = Encoding.Default.GetBytes(DateTime.Now.ToBinary().ToString());
+            //byte[] bin = Encoding.Default.GetBytes(DateTime.Now.ToBinary().ToString());
 
-            string baseDir = "Receipts";
-            string fileName = $"{baseDir}\\{Convert.ToBase64String(bin)}.jpg";
+            //string baseDir = "Receipts";
+            //string fileName = $"{baseDir}\\{Convert.ToBase64String(bin)}.jpg";
 
-            Server.MapPath(baseDir).CreateDirectory();
+            //Server.MapPath(baseDir).CreateDirectory();
 
             Bitmap bmp = SWMaestro.ReceiptGenerator.Generate(
                 Name,
@@ -62,9 +62,14 @@ namespace ReceiptGenerator_Web
                 RReg,
                 DateTime.Parse(Date));
             
-            bmp.Save(Server.MapPath(fileName), ImageFormat.Jpeg);
-            
-            Response.Redirect(fileName);
+            //bmp.Save(Server.MapPath(fileName), ImageFormat.Jpeg);
+            //Response.Redirect(fileName);
+
+            rimg.Src = $"data:image/jpg;base64,{bmp.ToBase64()}";
+            bmp.Dispose();
+
+            sp.Attributes.Add("style", "display:none");
+            rimg.Visible = true;
         }
 
         private void SetCookie(string key, string value)
