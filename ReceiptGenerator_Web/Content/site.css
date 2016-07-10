@@ -1,0 +1,23 @@
+﻿@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+html, body, label, h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Noto Sans KR';
+}
+
+.btn-submit
+{
+    font-family: 'Noto Sans KR';
+}
+
+.header
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #0d589d;
+}
+.body
+{
+    margin: 15px;
+}

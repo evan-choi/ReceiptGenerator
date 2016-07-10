@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptGenerator", "Receipt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptGenerator_App", "ReceiptGenerator_App\ReceiptGenerator_App.csproj", "{C882FC1D-4071-444F-A931-66F03AC70308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptGenerator_Web", "ReceiptGenerator_Web\ReceiptGenerator_Web.csproj", "{7F7495AA-3603-4AB7-BCBB-FBB7EDB48E93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C882FC1D-4071-444F-A931-66F03AC70308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C882FC1D-4071-444F-A931-66F03AC70308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C882FC1D-4071-444F-A931-66F03AC70308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7495AA-3603-4AB7-BCBB-FBB7EDB48E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7495AA-3603-4AB7-BCBB-FBB7EDB48E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7495AA-3603-4AB7-BCBB-FBB7EDB48E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7495AA-3603-4AB7-BCBB-FBB7EDB48E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
